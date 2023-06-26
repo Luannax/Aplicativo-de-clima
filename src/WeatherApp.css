@@ -1,0 +1,116 @@
+.container-oficial {
+  padding: 100px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.948);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555353a8;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    background-color: #c7c1c1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #e50000;
+    border-radius: 10px;
+    padding: 6px;
+  }
+ 
+@media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1024px) {
+          @media screen and (max-width: 1200px) {
+            .container-oficial {
+              padding: 10%;
+            }
+            
+            .container {
+              max-width: 90%;
+              margin: 0 auto;
+              text-align: center;
+              background-color: #ffffff;
+              border-radius: 10px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.948);
+            }
+            
+            h1 {
+              font-size: 24px;
+              margin-bottom: 20px;
+            }
+            
+            input[type="text"] {
+              width: 70%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 20px;
+            }
+            
+            p {
+              color: black;
+              font-size: 16px;
+              margin-bottom: 10px;
+            }
+
+            .footer {
+              background-color: #c7c1c1;
+              padding: 10px;
+              text-align: center;
+              position: fixed;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+            }
+            
+            a{
+              text-decoration: none;
+            }
+          
+            a:hover{
+              color: rgb(255, 255, 255);
+              background-color: #e50000;
+              border-radius: 10px;
+              padding: 6px;
+            }
+
+            }
+            }
+            }
+            }
